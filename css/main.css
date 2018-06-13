@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-05-30 16:01:34
+ * @version $Id$
+ */
+ /* 页面样式 */
+.main{
+	width:1200px;
+	margin:0 auto;
+	overflow: hidden;
+}
+/*页标题*/
+.title{
+	height: 100px;
+	background-color: #1C557C;
+	text-align: center;
+	line-height: 100px;
+}
+.title p{
+	font-size: 24px;
+	color: #fff;
+	font-family: ;
+}
+/* 轮播图 */
+  /* 主体样式 */
+  .content{
+  	width: 100%;
+  	margin-top:20px;
+  }
+  /*左边*/
+  .content .left{
+  	width: 20%;
+  	background-color: #fff;
+  	border-radius: 2px;
+  	padding:10px;
+
+  }
+  .content .left ul.nav{
+  	
+  }
+  .content .left ul.nav li{
+  	padding: 10px;
+  	color: ;
+  }
+  .content .left ul.nav li a:hover{
+  	color: #337ab7;
+  	/*#006883*/
+  }
+  .content .left ul.nav li img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+  }
+  /*右边*/
+  .content .right{
+  	width: 78%;
+  	background-color: #fff;
+  	border-radius: 2px;
+    color: #232323;
+  }
+  .content .right div.tab{
+    padding: 20px;
+    overflow: hidden;
+  }
+  .content .right div.tab:not(:first-child){
+		display: none;
+	}
+  /* 左边新闻 */
+  .content .right .left-main{
+    padding: 10px;
+  }
+  .content .right .nowtimeNew{
+    width: 70%;
+    overflow: hidden;
+  }
+  .content .right .nowtimeNew .new{
+    border-bottom: 1px solid #EFEFEF;
+    padding: 20px 0; 
+  }
+  .content .right .nowtimeNew .new .new-content{
+    height: 50px; 
+    margin-left:20px;
+  }
+  .content .right .nowtimeNew .new .new-content h2{
+    margin-bottom:30px;
+  }
+  /*  */
+  .new-share{
+    margin-top:30px;
+  }
+  /* 右边*/ 
+  .content .right .topNew{
+    width: 25%;
+    margin-left:20px;
+  }
+  .content .right .topNew .toptil{
+    height: 35px; 
+    line-height: 35px;
+    padding-bottom: 50px;
+    border-bottom:1px solid #EFEFEF;
+  }
+  .content .right .topNew .toptil h4{
+    border-left:2px solid #1C557C;
+    padding-left:10px;
+  }
+  .content .right .topNew .new-msg{
+    padding-bottom: 20px;
+    border-bottom:1px solid #EFEFEF; 
+  }
+  .content .right .topNew .new-img{
+    text-align: center;
+    margin:20px;
+  }
+ /*美食轮播*/
+ .myCarousel{
+  margin:30px;
+ }
+ .myCarousel img{
+    width: 100%;
+    height: 350px;
+ }
+ .myCarousel .food-carousel li:not(:first-child){
+  display: none;
+ }
+ /*旅游*/
+ .travel{
+
+ }
+.gridTrav{
+  width:260px;
+  min-height:100px;
+  padding:20px;
+  background:#fff;
+  margin:15px;
+  font-size:12px;
+  float:left;
+  box-shadow:0 1px 3px rgba(34,25,25,0.4);
+  -moz-box-shadow:0 1px 3px rgba(34,25,25,0.4);
+  -webkit-box-shadow:0 1px 3px rgba(34,25,25,0.4);
+  -webkit-transition:top 1s ease, left 1s ease;
+  -moz-transition:top 1s ease, left 1s ease;
+  -o-transition:top 1s ease, left 1s ease;
+  -ms-transition:top 1s ease, left 1s ease;
+}
+.gridTrav strong{
+  border-bottom:1px solid #ccc;
+  margin:10px 0;
+  display:block;
+  padding:0 0 5px;
+  font-size:17px;
+}
+.gridTrav .meta{
+  text-align:right;
+  color:#777;
+  font-style:italic;
+}
+.gridTrav .imgholder img.lazy{
+  width: 200px;
+  max-width:100%;
+  background:#ccc;
+  display:block;
+  text-align: center;
+  background:url(images/loding.gif) no-repeat center;
+}
